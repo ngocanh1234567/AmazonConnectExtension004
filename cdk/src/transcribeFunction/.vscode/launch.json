@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "デバッグ実行",
+            "program": "${workspaceRoot}/.vscode/drive.js",
+            "cwd": "${workspaceRoot}/",
+            "outFiles": [ "${workspaceRoot}/*.js" ], 
+            "env": {
+                "TZ": "Asia/Tokyo",
+                "WAV_BUCKET": "connect-ea747ad00a36",
+                "OUTPUT_BUCKET": "connect-ex-transcribe-004-bucket-439028474478",
+                "IsLocal": "Yes"
+
+            },
+            "args": [
+                "event.json",
+            ]
+        }
+    ]
+}
+

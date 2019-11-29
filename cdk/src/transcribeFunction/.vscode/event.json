@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-northeast-1",
+            "eventTime": "2019-11-27T11:07:22.658Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROAWMOBC4JXM4NOSQ3P:cm-hirauchi.shinichi"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "126.150.123.90"
+            },
+            "responseElements": {
+                "x-amz-request-id": "CAD9C05E3C52E2AA",
+                "x-amz-id-2": "7WnXKYjxEVEThVMCoWVt2U2ytqSgbspp71Prdejny4o/nfr/HoWF2a9OwaXCojsmlePWkKOb81w="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "lambda-upload-notification-connect-ea747ad00a36",
+                "bucket": {
+                    "name": "connect-ea747ad00a36",
+                    "ownerIdentity": {
+                        "principalId": "A2JYS3CXK7V6S3"
+                    },
+                    "arn": "arn:aws:s3:::connect-ea747ad00a36"
+                },
+                "object": {
+                    "key": "5ef88fc5-05da-47f3-b2ee-ce9ea7a7ffc9_20191129T04_43_UTC.wav",
+                    "size": 803279,
+                    "eTag": "322a75a4782d5fdc3af0857c3ddef665",
+                    "sequencer": "005DDE58EA87E04A3B"
+                }
+            }
+        }
+    ]
+}

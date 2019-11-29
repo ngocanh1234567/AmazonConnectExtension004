@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-northeast-1",
+            "eventTime": "2019-11-25T17:30:24.330Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROAWMOBC4JXFSCN6ZBHV:RecordingUploadTask"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "18.179.90.62"
+            },
+            "responseElements": {
+                "x-amz-request-id": "39885F30E2B94671",
+                "x-amz-id-2": "OotAdGlTDxbbvTulmMSFIyeiT24/QDqfTuMb+fI6jjTJ6OElKu5QWf8mQSMKyRDeBKGmzeTUj+w="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "2aab09dd-c882-451d-af9b-9153b05e1f28",
+                "bucket": {
+                    "name": "connect-ea747ad00a36",
+                    "ownerIdentity": {
+                        "principalId": "A2JYS3CXK7V6S3"
+                    },
+                    "arn": "arn:aws:s3:::connect-ea747ad00a36"
+                },
+                "object": {
+                    "key": "connect/sample00033/CallRecordings/2019/11/25/b617d5f7-08c0-4070-95e3-4cab702b6adf_20191125T17%3A30_UTC.wav",
+                    "size": 258604,
+                    "eTag": "21f0951a5e128d372f9a7c6e0c7b6843",
+                    "sequencer": "005DDC0FB02977A17C"
+                }
+            }
+        }
+    ]
+}
