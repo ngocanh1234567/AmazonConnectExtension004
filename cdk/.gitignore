@@ -2,6 +2,7 @@
 *.d.ts
 node_modules
 !src/lambda/.vscode/drive.js
+!src/setNotificationFunction/index.js
 # CDK asset staging directory
 .cdk.staging
 cdk.out
