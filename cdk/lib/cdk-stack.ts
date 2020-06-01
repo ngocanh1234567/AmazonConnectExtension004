@@ -10,7 +10,7 @@ const tag = "connect-ex-transcribe-004";
 // Lambdaのタイムゾーン
 const timeZone = 'Asia/Tokyo';
 // Amazon Connectの設定を転記して下さい。
-const wavBucketName = 'connect-ea747ad00a36';
+const wavBucketName = 'webapp-anhnn';
 
 export class AmazonConnectExtension004Stack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
